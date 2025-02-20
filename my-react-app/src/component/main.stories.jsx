@@ -1,9 +1,12 @@
 import React from "react";
-import main from "./main";
+import main from "..component/main"; // Adjust path as needed
 
 export default {
-  title: "Pages/main",
-  components: main,
+  title: "component/main",
+  component: main,
 };
 
-export const Default = () => <main />;
+const Template = (args) => <main{...args} />;
+
+export const Default = Template.bind({});
+Default.args = {};
