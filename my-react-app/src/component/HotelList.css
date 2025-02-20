@@ -1,0 +1,15 @@
+.hotel-list {
+    padding: 16px;
+  }
+  
+  .hotel-list-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .hotel-list-container {
+    display: flex;
+    gap: 16px;
+    overflow-x: scroll;
+    padding: 8px 0;
+  }

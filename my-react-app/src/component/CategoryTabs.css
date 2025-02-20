@@ -1,0 +1,18 @@
+.category-tabs {
+    display: flex;
+    gap: 10px;
+    padding: 16px;
+  }
+  
+  .tab-btn {
+    padding: 10px 16px;
+    border-radius: 20px;
+    border: none;
+    background: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .tab-btn.active {
+    background: #ff6b00;
+    color: white;
+  }
