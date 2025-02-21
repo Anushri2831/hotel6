@@ -3,9 +3,9 @@ import Header from "../component/Header";
 import CategoryTabs from "../component/CategoryTabs";
 import HotelList from "../component/HotelList";
 import BottomNavigation from "../component/BottomNavigation";
-import "./main.css";
+import "./mainn.css";
 
-const main = () => {
+const mainn = () => {
   return (
     <div className="hotel-booking-app">
       <Header />
@@ -17,4 +17,4 @@ const main = () => {
   );
 };
 
-export default main;
+export default mainn;
